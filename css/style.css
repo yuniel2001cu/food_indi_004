@@ -1,0 +1,249 @@
+@font-face {
+    font-family: logoFont;
+    src: url(../fonts/UnifrakturCook-Bold.ttf);
+}
+@font-face {
+    font-family: myFont1;
+    src: url(../fonts/MarckScript-Regular.ttf);
+}
+@font-face {
+    font-family: courgette;
+    src: url(../fonts/Courgette-Regular.ttf);
+}
+#part-1, #part-2, #part-3, #part-4, #part-5, #part-6, #part-7, #part-8, #footer{
+    overflow: hidden;
+}
+.bottom-border{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #761c19;
+}
+.font-MarckScript-Regular{
+    font-family: myFont1;
+}
+.font-Courgette-Regular{
+    font-family: courgette;
+}
+#part-1 nav{
+    background-color: rgba(147, 108, 108, .9);
+    border: 0px;
+    color: #fff;
+}
+#part-1 .logo{
+    font-family: logoFont;
+    color: #F0F1F1;
+}
+#part-1 li a{
+    color: #fff !important;
+    padding-top: 20px;
+}
+#part-1 li:hover a{
+    transform: scale(1.4);
+    
+}
+#part-2{
+    background-image: url(../images/headert.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+}
+#part-2 h1{
+    color: #fff;
+    text-align: center;
+    margin: 0px auto;
+    margin-bottom: 50px;
+    font-family: myFont1;
+    font-size: 700%;
+}
+#part-2 a{
+    color: #fff;
+    padding: 10px 30px;
+}
+#part-2 .btn1{
+    margin-right: 10px;
+    background-color: rgba(210, 45, 45, .4);
+}
+#part-2 a:hover{
+    background-color: rgba(210, 45, 45, 1);
+}
+#part-2 .btn2{
+    background-color: rgba(255, 230, 230, .4);
+}
+#part-3{
+    background-image: url(../images/vesetable_art.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+}
+#part-3 h3{
+    font-family: myFont1;
+    margin-bottom: 30px;
+    color: #761c19;
+}
+#part-3 p{
+    max-width: 50%;
+    margin: 0 auto;
+}
+#part-3 img{
+    margin: 0px auto;
+}
+#part-4{
+    background-color: #fff;
+}
+#part-4 .p4-img{
+    padding: 130px 0;
+    
+}
+.p4-img img{
+    margin: 0px auto;
+    padding-right: 140px;
+}
+.p4-right{
+    background-color: #fb785e;
+    padding: 100px 50px;
+}
+.p4-right p, .p4-right h3{
+    text-align: center;
+    padding-bottom: 50px;
+    font-family: myFont1;
+}
+.p4-r-img{
+    margin-top: 50px;
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+}
+#part-5{
+    background-image: url(../images/akybg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px;
+}
+.p5-left, .p5-right{
+}
+.p5-img-l, .p5-img-r{
+    position: absolute;
+    opacity: .2;
+    margin-top: 30px;
+}
+.p5-img-l{
+    left: -50px;
+    
+}
+.p5-img-r{
+    right: -50px;
+}
+.p5-content{
+    top: 10px;
+    color: #787B8B;
+    padding: 0 20px;
+}
+.p5-content h4 span{
+    width: 50%;
+}
+.p5-content h3{
+    padding: 30px 0;
+    margin-left: 20%;
+}
+#part-6{
+    background-color: #fff;
+    padding: 100px 0;
+}
+#part-6 h2{
+    margin-bottom: 30px;
+    font-family: myFont1;
+}
+#part-6 p{
+    font-family: courgette;
+    font-size: 18px;
+    max-width: 50%;
+    margin: 20px auto;
+}
+#part-6 h1{
+    margin-top: 30px;
+    font-family: myFont1;
+}
+#part-6 h3 span{
+    margin-left: 10px;
+    color: #FAC917;
+}
+#part-7{
+    background-color: #F0F1F1;
+    padding: 100px 0;
+}
+.p7bgimg{
+    position: absolute;
+    margin-left: 10%;
+    opacity: .4;
+}
+.p7-img{
+    width: 48%;
+    margin-left: 2%;
+    float: left;
+}
+#part-7 a{
+    margin-left: 40%;
+    margin-top: 30px;
+}
+#part-7 form{
+    margin-top: 50px;
+}
+.p7-r-img{
+    position: absolute;
+    right: -50%;
+}
+#part-7 input{
+    border-color: #761c19;
+}
+#part-8{
+    background-image: url(../images/akybg.jpg);
+    padding: 35px 0;
+}
+#part-8 .f1 span{
+    color: #fff;
+}
+.f1 p{
+    color: #C5C1BF;
+    font-weight: bolder;
+}
+.f2 h2{
+    color: #fff;
+    font-family: logoFont;
+}
+.f2 p{
+    color: #fff;
+}
+.f2 span{
+    padding: 10px;
+    color: #6B6B6B;
+    border-radius: 100%;
+    background-color: #1A1E36;
+    margin-left: 10px;
+}
+.f2 span:hover{
+    background-color: #fb785e;
+    color: #fff;
+}
+#footer{
+    background-color: #1B203C;
+    padding: 10px 0;
+    color: #C5C1BF;
+}
+@media screen and (max-width:991px){
+    .p4-img{
+        display: none;
+    }
+    #part-4{
+        background-color: #FB785E;
+    }
+}
+@media screen and (max-width:767px){
+    .f1{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    #part-1 ul li:hover a{
+        color: #f2dede !important;
+        display: block;
+        transform: scale(1);
+    }
+}
